@@ -1,0 +1,50 @@
+CompanyName,Category,Industry,Headquarters
+Microsoft,Category-3,Software,USA
+Adobe,Category-3,Software,USA
+Apple,Category-3,Consumer Electronics,USA
+Oracle,Category-3,Enterprise Software,USA
+Cisco,Category-3,Networking,USA
+NVIDIA,Category-3,Semiconductor,USA
+Intel,Category-3,Semiconductor,USA
+Qualcomm,Category-3,Semiconductor,USA
+Texas Instruments,Category-3,Semiconductor,USA
+Samsung,Category-3,Electronics,South Korea
+MediaTek,Category-3,Semiconductor,Taiwan
+NXP,Category-3,Semiconductor,Netherlands
+JP Morgan Chase,Category-3,Banking,USA
+Wells Fargo,Category-2,Banking,USA
+BNY Mellon,Category-2,Banking,USA
+ICICI Bank,Category-2,Banking,India
+NatWest,Category-2,Banking,United Kingdom
+HSBC,Category-2,Banking,United Kingdom
+PayPal,Category-3,FinTech,USA
+Visa,Category-3,FinTech,USA
+TCS,Category-2,IT Services,India
+Infosys,Category-2,IT Services,India
+Accenture,Category-2,Consulting,Ireland
+Deloitte,Category-2,Consulting,USA
+PwC,Category-2,Consulting,United Kingdom
+Capgemini,Category-2,IT Services,France
+EXL,Category-2,Analytics,USA
+ZS Associates,Category-2,Consulting,USA
+Sigmoid,Category-2,Analytics,India
+Tredence,Category-2,Analytics,India
+Publicis Sapient,Category-2,Consulting,France
+GreyB,Category-2,Research & Consulting,India
+Larsen & Toubro,Category-2,Engineering,India
+Tata Steel,Category-2,Steel,India
+JSW Steel,Category-2,Steel,India
+Electrosteel,Category-2,Steel,India
+Adani Group,Category-2,Infrastructure,India
+Reliance Industries,Category-2,Energy,India
+Bharat Petroleum,Category-2,Oil & Gas,India
+Haldia Petrochemicals,Category-2,Petrochemicals,India
+HMEL,Category-2,Oil & Gas,India
+TVS Motors,Category-2,Automobile,India
+Mahindra & Mahindra,Category-2,Automobile,India
+Bajaj Auto,Category-2,Automobile,India
+Bosch,Category-2,Automobile,Germany
+Saint-Gobain,Category-2,Manufacturing,France
+Vedanta,Category-2,Mining,India
+Danieli India,Category-2,Steel Equipment,India
+Hexagon,Category-2,Engineering Software,Sweden

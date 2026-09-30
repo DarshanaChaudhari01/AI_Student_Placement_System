@@ -1,0 +1,501 @@
+StudentID,Name,Gender,Email,Phone,BranchID,CGPA,CodingScore,DSASolved,Projects,Internships,CommunicationScore,AptitudeScore,PreferredRoleID,PlacementStatus
+3001,Student_1,Male,student1@example.com,9126855092,3,6.55,37,377,0,0,84,34,1,Not Placed
+3002,Student_2,Male,student2@example.com,9334760738,2,7.67,23,287,1,3,58,87,9,Placed
+3003,Student_3,Male,student3@example.com,9914763202,2,8.5,63,142,1,1,73,43,3,Placed
+3004,Student_4,Female,student4@example.com,9203848421,3,9.14,97,135,6,0,88,98,4,Placed
+3005,Student_5,Female,student5@example.com,9184611066,5,6.76,100,316,6,2,54,38,2,Placed
+3006,Student_6,Male,student6@example.com,9930075810,3,9.74,49,51,3,2,88,76,6,Placed
+3007,Student_7,Female,student7@example.com,9481469012,2,8.38,29,311,5,1,98,61,6,Placed
+3008,Student_8,Female,student8@example.com,9507437181,3,9.75,91,112,5,2,37,59,2,Placed
+3009,Student_9,Female,student9@example.com,9530747414,3,5.78,92,367,2,1,93,80,15,Placed
+3010,Student_10,Male,student10@example.com,9384412919,2,6.56,91,275,2,3,81,76,8,Placed
+3011,Student_11,Male,student11@example.com,9647099690,4,5.89,26,56,1,1,84,38,13,Not Placed
+3012,Student_12,Female,student12@example.com,9739830322,4,7.78,90,5,5,0,98,64,11,Placed
+3013,Student_13,Male,student13@example.com,9415143362,4,6.18,20,369,5,2,94,52,4,Placed
+3014,Student_14,Female,student14@example.com,9786066793,5,8.12,39,191,6,1,99,97,1,Placed
+3015,Student_15,Female,student15@example.com,9624636385,1,5.98,66,157,1,0,60,40,3,Not Placed
+3016,Student_16,Female,student16@example.com,9976198296,1,9.71,88,392,1,1,90,100,6,Placed
+3017,Student_17,Female,student17@example.com,9666585408,5,7.32,47,276,6,1,69,81,12,Placed
+3018,Student_18,Female,student18@example.com,9655742829,4,6.02,48,32,2,0,100,59,8,Not Placed
+3019,Student_19,Male,student19@example.com,9176228245,1,6.48,24,169,0,1,65,92,7,Not Placed
+3020,Student_20,Male,student20@example.com,9876693898,5,7.98,51,242,6,3,54,42,4,Placed
+3021,Student_21,Female,student21@example.com,9480424119,4,7.27,26,344,5,0,37,81,11,Placed
+3022,Student_22,Male,student22@example.com,9366992705,2,6.32,77,71,3,1,65,89,8,Not Placed
+3023,Student_23,Male,student23@example.com,9575808013,5,5.92,89,7,0,1,51,82,16,Not Placed
+3024,Student_24,Female,student24@example.com,9329509408,4,9.38,41,194,0,3,63,88,10,Placed
+3025,Student_25,Female,student25@example.com,9847959430,5,8.35,82,79,1,2,57,37,2,Placed
+3026,Student_26,Female,student26@example.com,9161380746,1,8.01,84,271,1,0,95,40,6,Placed
+3027,Student_27,Male,student27@example.com,9738914080,1,8.4,50,206,0,1,35,40,14,Not Placed
+3028,Student_28,Female,student28@example.com,9379995032,2,8.38,60,122,2,3,46,68,15,Placed
+3029,Student_29,Female,student29@example.com,9907308348,1,5.54,99,288,0,0,98,57,9,Placed
+3030,Student_30,Male,student30@example.com,9474745382,1,9.28,67,145,1,3,99,68,1,Placed
+3031,Student_31,Female,student31@example.com,9812308209,1,9.54,37,135,0,0,100,49,9,Not Placed
+3032,Student_32,Female,student32@example.com,9749431082,2,8.59,46,351,5,2,94,92,9,Placed
+3033,Student_33,Male,student33@example.com,9199104722,4,9.07,25,1,2,1,63,50,15,Not Placed
+3034,Student_34,Female,student34@example.com,9702269164,1,5.98,39,279,0,2,100,48,14,Not Placed
+3035,Student_35,Male,student35@example.com,9144913399,3,7.07,25,183,1,1,43,75,14,Not Placed
+3036,Student_36,Male,student36@example.com,9354194771,2,9.7,42,211,0,1,72,82,8,Placed
+3037,Student_37,Female,student37@example.com,9270937380,1,7.14,24,240,1,1,88,74,10,Not Placed
+3038,Student_38,Male,student38@example.com,9339362341,1,8.34,71,168,2,0,65,74,13,Placed
+3039,Student_39,Female,student39@example.com,9129635852,1,9.27,53,91,4,2,34,43,14,Placed
+3040,Student_40,Female,student40@example.com,9882269302,3,7.38,85,59,3,1,62,35,14,Placed
+3041,Student_41,Male,student41@example.com,9658260221,5,8.45,45,186,3,0,72,70,4,Not Placed
+3042,Student_42,Female,student42@example.com,9644518647,3,8.37,61,206,5,2,100,46,7,Placed
+3043,Student_43,Female,student43@example.com,9813962536,4,8.41,42,315,4,2,81,100,1,Placed
+3044,Student_44,Female,student44@example.com,9408071259,2,7.35,94,310,5,2,89,86,15,Placed
+3045,Student_45,Male,student45@example.com,9648868899,4,8.91,41,337,0,2,95,72,3,Placed
+3046,Student_46,Male,student46@example.com,9822408848,3,6.47,45,75,0,0,61,90,3,Not Placed
+3047,Student_47,Female,student47@example.com,9545002643,5,6.34,69,253,3,1,48,30,4,Placed
+3048,Student_48,Female,student48@example.com,9334978881,2,8.96,86,237,0,1,45,88,5,Placed
+3049,Student_49,Female,student49@example.com,9816806128,5,9.75,96,162,6,3,94,84,15,Placed
+3050,Student_50,Male,student50@example.com,9898493949,4,7.44,51,326,2,3,60,65,15,Placed
+3051,Student_51,Male,student51@example.com,9866162966,3,6.51,62,163,4,0,47,49,8,Not Placed
+3052,Student_52,Female,student52@example.com,9845122940,2,8.54,28,212,3,2,99,89,14,Placed
+3053,Student_53,Male,student53@example.com,9322086735,4,7.17,94,356,0,3,91,30,12,Placed
+3054,Student_54,Female,student54@example.com,9909037759,4,9.17,73,275,5,1,92,58,9,Placed
+3055,Student_55,Female,student55@example.com,9621454127,1,7.17,71,370,1,3,46,98,1,Placed
+3056,Student_56,Female,student56@example.com,9735540030,5,8.35,30,329,3,1,89,53,2,Placed
+3057,Student_57,Female,student57@example.com,9507059676,3,6.41,61,172,6,3,65,83,9,Placed
+3058,Student_58,Male,student58@example.com,9604988121,1,8.72,26,179,1,0,35,33,8,Not Placed
+3059,Student_59,Male,student59@example.com,9121882877,5,6.16,36,242,5,0,57,89,9,Not Placed
+3060,Student_60,Female,student60@example.com,9280162221,5,8.11,34,398,6,1,69,43,1,Placed
+3061,Student_61,Female,student61@example.com,9718257024,4,7.21,45,38,4,1,43,68,4,Not Placed
+3062,Student_62,Male,student62@example.com,9472807202,5,7.34,67,35,4,2,31,83,16,Placed
+3063,Student_63,Male,student63@example.com,9565492204,3,8.23,78,362,1,3,52,96,9,Placed
+3064,Student_64,Female,student64@example.com,9599154414,4,9.05,95,137,2,1,41,65,15,Placed
+3065,Student_65,Male,student65@example.com,9905817775,4,7.95,68,172,0,3,71,53,16,Placed
+3066,Student_66,Male,student66@example.com,9480990401,3,6.96,96,359,2,0,96,54,3,Placed
+3067,Student_67,Male,student67@example.com,9873174285,4,7.6,50,353,3,3,87,32,3,Placed
+3068,Student_68,Female,student68@example.com,9337937327,4,8.47,59,339,4,2,90,100,12,Placed
+3069,Student_69,Female,student69@example.com,9900942073,5,6.92,78,138,2,2,59,45,7,Placed
+3070,Student_70,Female,student70@example.com,9228370927,5,9.59,43,98,1,3,65,97,10,Placed
+3071,Student_71,Male,student71@example.com,9994027897,2,6.77,66,91,2,0,98,46,9,Not Placed
+3072,Student_72,Male,student72@example.com,9158546865,5,6.76,36,326,6,3,43,31,10,Placed
+3073,Student_73,Female,student73@example.com,9614015466,4,6.97,26,129,6,3,44,38,13,Placed
+3074,Student_74,Female,student74@example.com,9179545125,5,8.21,26,77,1,2,40,61,4,Not Placed
+3075,Student_75,Female,student75@example.com,9751028618,5,8.9,48,397,4,3,87,86,10,Placed
+3076,Student_76,Female,student76@example.com,9427899537,5,8.17,98,378,0,1,57,63,3,Placed
+3077,Student_77,Male,student77@example.com,9357553274,2,7.87,40,1,3,3,90,67,2,Not Placed
+3078,Student_78,Male,student78@example.com,9409350265,3,8.52,78,36,5,1,63,55,14,Placed
+3079,Student_79,Male,student79@example.com,9684719405,2,8.28,54,72,0,0,51,69,10,Not Placed
+3080,Student_80,Female,student80@example.com,9233523720,4,8.46,71,139,4,3,86,40,2,Placed
+3081,Student_81,Female,student81@example.com,9888699799,3,8.1,23,46,1,0,64,35,6,Not Placed
+3082,Student_82,Female,student82@example.com,9657233178,4,9.44,43,299,3,3,41,90,12,Placed
+3083,Student_83,Female,student83@example.com,9457887167,3,8.38,40,168,3,3,66,81,2,Placed
+3084,Student_84,Female,student84@example.com,9194553481,3,6.59,34,395,3,0,99,89,14,Placed
+3085,Student_85,Male,student85@example.com,9301415220,5,7.06,83,320,3,0,56,64,5,Placed
+3086,Student_86,Female,student86@example.com,9570423569,4,6.02,100,311,6,1,50,69,1,Placed
+3087,Student_87,Female,student87@example.com,9200082623,2,9.77,34,236,0,1,93,67,9,Placed
+3088,Student_88,Female,student88@example.com,9996278008,4,9.72,51,233,4,1,79,54,5,Placed
+3089,Student_89,Male,student89@example.com,9396618390,4,6.96,84,136,6,0,66,68,16,Placed
+3090,Student_90,Male,student90@example.com,9579476614,5,7.58,62,282,6,3,88,71,7,Placed
+3091,Student_91,Male,student91@example.com,9713963047,4,6.5,72,22,2,3,78,79,5,Placed
+3092,Student_92,Female,student92@example.com,9139749508,2,7.66,95,169,6,0,86,42,15,Placed
+3093,Student_93,Male,student93@example.com,9875718152,2,7.26,39,38,3,2,73,80,3,Not Placed
+3094,Student_94,Female,student94@example.com,9824085842,5,7.13,60,320,5,3,99,34,3,Placed
+3095,Student_95,Male,student95@example.com,9777703980,3,9.79,31,222,0,0,86,51,10,Not Placed
+3096,Student_96,Male,student96@example.com,9149382425,3,8.92,57,183,2,3,48,61,14,Placed
+3097,Student_97,Male,student97@example.com,9282518553,2,5.84,68,317,5,1,93,48,8,Placed
+3098,Student_98,Female,student98@example.com,9784944881,3,7.48,21,238,2,1,39,86,12,Not Placed
+3099,Student_99,Female,student99@example.com,9786055206,4,8.47,78,154,1,3,91,43,8,Placed
+3100,Student_100,Female,student100@example.com,9714097318,3,7.97,57,11,6,3,65,31,2,Placed
+3101,Student_101,Female,student101@example.com,9994253959,3,8.84,49,310,6,2,58,54,9,Placed
+3102,Student_102,Male,student102@example.com,9774576271,1,9.38,25,158,6,3,34,76,5,Placed
+3103,Student_103,Male,student103@example.com,9416872439,3,8.71,42,102,1,2,97,94,9,Not Placed
+3104,Student_104,Male,student104@example.com,9375919523,4,9.66,57,382,6,2,44,89,3,Placed
+3105,Student_105,Male,student105@example.com,9909763993,2,9.2,70,285,2,0,80,31,9,Placed
+3106,Student_106,Male,student106@example.com,9588322781,3,8.39,53,299,3,2,43,59,16,Placed
+3107,Student_107,Male,student107@example.com,9765233376,5,6.91,98,113,5,0,89,68,14,Placed
+3108,Student_108,Male,student108@example.com,9250084428,1,9.57,58,252,0,0,60,98,5,Placed
+3109,Student_109,Female,student109@example.com,9587096273,3,8.38,89,214,4,1,83,42,16,Placed
+3110,Student_110,Female,student110@example.com,9400368694,1,8.47,47,227,3,1,76,42,12,Placed
+3111,Student_111,Female,student111@example.com,9165015165,4,6.69,35,232,0,1,32,36,11,Not Placed
+3112,Student_112,Male,student112@example.com,9235209737,5,6.38,90,106,4,1,59,72,5,Placed
+3113,Student_113,Male,student113@example.com,9397721596,2,9.75,89,128,6,1,44,33,5,Placed
+3114,Student_114,Male,student114@example.com,9484659715,2,8.03,22,89,2,0,46,83,4,Not Placed
+3115,Student_115,Male,student115@example.com,9611365210,4,8.85,85,303,0,3,94,58,2,Placed
+3116,Student_116,Female,student116@example.com,9591819409,1,5.76,81,205,3,0,92,86,3,Placed
+3117,Student_117,Male,student117@example.com,9445864933,5,6.14,36,140,4,2,78,97,10,Not Placed
+3118,Student_118,Female,student118@example.com,9642831335,5,7.35,34,335,5,1,85,87,8,Placed
+3119,Student_119,Female,student119@example.com,9463925049,4,7.21,32,160,3,2,62,77,5,Not Placed
+3120,Student_120,Female,student120@example.com,9172083844,1,9.08,31,221,0,2,46,37,11,Placed
+3121,Student_121,Male,student121@example.com,9541102414,3,9.26,74,369,0,2,69,75,4,Placed
+3122,Student_122,Male,student122@example.com,9266140258,4,6.46,33,179,6,2,44,65,8,Placed
+3123,Student_123,Female,student123@example.com,9702332331,5,8.14,91,13,4,2,33,53,9,Placed
+3124,Student_124,Female,student124@example.com,9464883950,3,5.53,38,289,5,3,38,48,1,Placed
+3125,Student_125,Male,student125@example.com,9901131404,5,6.43,73,232,2,1,77,69,11,Placed
+3126,Student_126,Male,student126@example.com,9156488296,2,6.18,99,25,5,0,64,86,14,Placed
+3127,Student_127,Female,student127@example.com,9751842899,4,7.28,47,386,4,0,74,85,4,Placed
+3128,Student_128,Female,student128@example.com,9828230915,5,7.59,59,23,1,3,37,30,7,Not Placed
+3129,Student_129,Female,student129@example.com,9326810757,2,8.79,57,167,0,0,93,85,6,Not Placed
+3130,Student_130,Male,student130@example.com,9508244633,5,8.53,84,286,6,2,39,80,2,Placed
+3131,Student_131,Female,student131@example.com,9120123575,4,9.46,60,294,3,3,83,67,4,Placed
+3132,Student_132,Female,student132@example.com,9122394554,3,6.24,99,235,6,2,41,85,4,Placed
+3133,Student_133,Male,student133@example.com,9567804106,5,7.22,30,202,6,2,73,58,11,Placed
+3134,Student_134,Male,student134@example.com,9182011731,5,8.22,87,261,1,2,74,48,8,Placed
+3135,Student_135,Male,student135@example.com,9257243284,3,6.35,97,78,6,0,52,93,15,Placed
+3136,Student_136,Female,student136@example.com,9831361497,5,8.26,99,165,6,2,49,86,3,Placed
+3137,Student_137,Female,student137@example.com,9574817290,3,8.92,95,28,2,0,69,89,15,Placed
+3138,Student_138,Male,student138@example.com,9161085229,3,9.08,29,330,6,0,94,79,15,Placed
+3139,Student_139,Male,student139@example.com,9582897882,5,8.3,61,309,3,1,37,87,4,Placed
+3140,Student_140,Female,student140@example.com,9866990485,1,7.67,42,20,1,3,86,97,6,Not Placed
+3141,Student_141,Female,student141@example.com,9500346767,3,7.17,63,347,4,0,72,38,11,Placed
+3142,Student_142,Male,student142@example.com,9699108439,4,6.72,97,76,2,0,48,74,10,Not Placed
+3143,Student_143,Female,student143@example.com,9238460786,5,8.55,30,158,4,3,72,46,3,Placed
+3144,Student_144,Female,student144@example.com,9645985356,3,5.58,59,92,1,2,92,54,8,Not Placed
+3145,Student_145,Male,student145@example.com,9266371119,1,6.77,32,259,6,0,73,46,13,Not Placed
+3146,Student_146,Male,student146@example.com,9274211616,2,9.07,99,84,5,3,35,82,12,Placed
+3147,Student_147,Male,student147@example.com,9576954730,5,6.73,77,119,4,1,69,90,7,Placed
+3148,Student_148,Female,student148@example.com,9828326405,5,9.73,79,393,2,3,94,97,14,Placed
+3149,Student_149,Male,student149@example.com,9977130288,2,8.95,37,128,0,3,77,100,4,Placed
+3150,Student_150,Male,student150@example.com,9406084084,1,8.78,54,230,4,1,85,41,8,Placed
+3151,Student_151,Female,student151@example.com,9475364113,1,7.28,70,257,2,1,79,40,12,Placed
+3152,Student_152,Male,student152@example.com,9130266145,3,9.5,62,74,1,0,66,90,5,Not Placed
+3153,Student_153,Female,student153@example.com,9581682167,5,5.52,30,9,2,1,49,100,14,Not Placed
+3154,Student_154,Male,student154@example.com,9933409017,3,6.52,35,24,1,3,88,38,4,Not Placed
+3155,Student_155,Female,student155@example.com,9740743666,5,5.57,85,294,1,1,67,84,1,Placed
+3156,Student_156,Female,student156@example.com,9358303887,5,7.29,30,268,2,0,97,99,1,Not Placed
+3157,Student_157,Female,student157@example.com,9604803700,1,8.23,67,129,5,0,75,38,12,Placed
+3158,Student_158,Male,student158@example.com,9886989426,1,8.82,62,68,0,2,99,73,6,Placed
+3159,Student_159,Female,student159@example.com,9846668526,4,8.22,37,32,5,3,34,67,7,Placed
+3160,Student_160,Male,student160@example.com,9949447049,2,9.31,60,158,4,3,99,90,9,Placed
+3161,Student_161,Male,student161@example.com,9908839964,2,6.73,26,335,2,2,45,77,14,Placed
+3162,Student_162,Female,student162@example.com,9898120571,4,9.35,69,173,1,3,93,77,9,Placed
+3163,Student_163,Male,student163@example.com,9880697625,4,5.84,97,92,4,2,71,43,3,Placed
+3164,Student_164,Female,student164@example.com,9809656613,3,6.82,97,367,3,1,86,74,15,Placed
+3165,Student_165,Male,student165@example.com,9880411013,3,8.14,75,140,5,0,39,81,12,Placed
+3166,Student_166,Male,student166@example.com,9133436988,2,9.15,76,17,1,0,60,76,12,Not Placed
+3167,Student_167,Female,student167@example.com,9709074302,1,8.1,77,189,2,3,39,47,12,Placed
+3168,Student_168,Female,student168@example.com,9437568796,3,6.57,34,13,5,1,93,96,13,Not Placed
+3169,Student_169,Male,student169@example.com,9381080560,3,8.53,47,313,2,3,55,45,5,Placed
+3170,Student_170,Male,student170@example.com,9585377142,2,9.36,76,44,6,2,74,38,10,Placed
+3171,Student_171,Female,student171@example.com,9269119969,2,8.91,85,114,0,1,47,60,16,Placed
+3172,Student_172,Male,student172@example.com,9487509692,5,7.96,79,282,1,0,38,69,13,Placed
+3173,Student_173,Female,student173@example.com,9664461415,4,8.81,93,37,1,2,39,87,15,Placed
+3174,Student_174,Female,student174@example.com,9237798236,5,8.25,43,393,1,3,94,37,4,Placed
+3175,Student_175,Male,student175@example.com,9426551245,2,6.2,48,177,4,2,40,62,7,Not Placed
+3176,Student_176,Female,student176@example.com,9234400576,3,8.14,31,257,5,1,49,51,11,Placed
+3177,Student_177,Male,student177@example.com,9986090690,1,5.85,93,135,5,1,83,33,16,Placed
+3178,Student_178,Female,student178@example.com,9789242701,3,7.58,71,152,3,0,37,50,15,Not Placed
+3179,Student_179,Female,student179@example.com,9619960692,4,6.38,97,73,2,2,74,81,5,Placed
+3180,Student_180,Female,student180@example.com,9652955706,5,5.96,50,238,0,2,87,61,5,Not Placed
+3181,Student_181,Male,student181@example.com,9154337019,3,9.57,98,214,1,1,71,70,7,Placed
+3182,Student_182,Male,student182@example.com,9635008544,5,7.51,59,254,0,0,80,94,15,Not Placed
+3183,Student_183,Male,student183@example.com,9331009561,5,7.02,26,144,3,3,66,98,1,Not Placed
+3184,Student_184,Male,student184@example.com,9562705171,2,9.29,66,391,3,2,35,81,2,Placed
+3185,Student_185,Male,student185@example.com,9489256938,5,6.74,69,258,3,2,45,46,4,Placed
+3186,Student_186,Female,student186@example.com,9500718660,3,7.9,66,386,1,1,95,81,2,Placed
+3187,Student_187,Male,student187@example.com,9141783553,2,8.57,80,265,3,1,95,47,11,Placed
+3188,Student_188,Female,student188@example.com,9274485243,4,9.76,58,303,2,3,68,90,1,Placed
+3189,Student_189,Female,student189@example.com,9455665802,1,9.71,94,157,6,0,90,63,8,Placed
+3190,Student_190,Male,student190@example.com,9726553348,4,6.23,100,369,4,3,48,61,2,Placed
+3191,Student_191,Male,student191@example.com,9304853117,1,7.4,73,77,3,1,82,94,16,Placed
+3192,Student_192,Male,student192@example.com,9857820386,2,7.73,91,166,5,3,97,78,11,Placed
+3193,Student_193,Male,student193@example.com,9593559955,5,6.97,65,346,6,2,91,54,8,Placed
+3194,Student_194,Female,student194@example.com,9699240979,3,6.47,58,394,2,1,92,70,16,Placed
+3195,Student_195,Female,student195@example.com,9701818966,3,6.74,93,346,4,3,80,74,5,Placed
+3196,Student_196,Female,student196@example.com,9145168545,3,9.61,30,177,3,2,91,57,7,Placed
+3197,Student_197,Female,student197@example.com,9703462253,3,6.09,98,379,4,1,61,36,8,Placed
+3198,Student_198,Male,student198@example.com,9156361897,1,7.28,80,51,5,1,30,100,6,Placed
+3199,Student_199,Female,student199@example.com,9801038300,4,7.55,45,387,2,2,66,37,3,Placed
+3200,Student_200,Male,student200@example.com,9674615376,1,9.43,42,213,6,1,34,80,16,Placed
+3201,Student_201,Male,student201@example.com,9904236062,3,9.27,21,152,4,0,72,66,15,Not Placed
+3202,Student_202,Female,student202@example.com,9244096091,5,7.51,44,57,2,1,88,62,6,Not Placed
+3203,Student_203,Male,student203@example.com,9890937440,3,8.9,92,345,6,1,52,81,14,Placed
+3204,Student_204,Female,student204@example.com,9193133974,4,8.38,43,71,3,2,61,30,9,Not Placed
+3205,Student_205,Female,student205@example.com,9352889019,4,8.74,62,154,4,0,63,76,8,Placed
+3206,Student_206,Male,student206@example.com,9817029885,1,7.5,40,207,5,2,45,67,12,Placed
+3207,Student_207,Male,student207@example.com,9335287540,2,7.56,78,382,4,2,83,100,16,Placed
+3208,Student_208,Male,student208@example.com,9918040539,2,8.43,96,41,4,3,97,76,3,Placed
+3209,Student_209,Male,student209@example.com,9166312199,5,9.38,45,293,4,1,51,71,15,Placed
+3210,Student_210,Male,student210@example.com,9830461452,2,8.58,82,46,4,3,37,88,5,Placed
+3211,Student_211,Female,student211@example.com,9590483627,5,5.75,79,344,6,2,32,80,9,Placed
+3212,Student_212,Male,student212@example.com,9900801470,2,7.99,25,216,2,0,99,37,3,Not Placed
+3213,Student_213,Female,student213@example.com,9134075063,3,7.26,37,392,5,3,77,78,15,Placed
+3214,Student_214,Female,student214@example.com,9503346325,1,8.44,89,68,5,2,45,52,13,Placed
+3215,Student_215,Male,student215@example.com,9881531720,2,9.09,22,152,3,3,98,78,8,Placed
+3216,Student_216,Male,student216@example.com,9594592624,3,6.17,44,371,6,0,34,83,1,Placed
+3217,Student_217,Male,student217@example.com,9321278458,1,5.93,24,228,4,0,61,35,13,Not Placed
+3218,Student_218,Female,student218@example.com,9351619881,5,6.43,27,71,4,2,59,70,11,Not Placed
+3219,Student_219,Male,student219@example.com,9424017094,2,9.74,86,113,3,2,65,37,6,Placed
+3220,Student_220,Female,student220@example.com,9696840109,4,5.7,64,329,5,3,97,70,14,Placed
+3221,Student_221,Female,student221@example.com,9260221190,3,7.12,88,242,1,1,68,48,15,Placed
+3222,Student_222,Male,student222@example.com,9703857319,4,9.66,91,271,1,3,61,62,7,Placed
+3223,Student_223,Female,student223@example.com,9794395127,1,9.47,67,47,4,1,36,64,13,Placed
+3224,Student_224,Male,student224@example.com,9178151583,2,8.96,95,370,5,1,91,56,11,Placed
+3225,Student_225,Female,student225@example.com,9116464447,2,9.53,35,382,6,3,61,56,13,Placed
+3226,Student_226,Male,student226@example.com,9692790631,3,8.83,68,238,4,2,69,63,12,Placed
+3227,Student_227,Female,student227@example.com,9600368062,1,8.95,80,389,6,2,56,77,11,Placed
+3228,Student_228,Female,student228@example.com,9149086585,5,9.22,38,8,2,3,67,49,7,Not Placed
+3229,Student_229,Female,student229@example.com,9346980616,4,7.95,51,255,4,2,62,92,16,Placed
+3230,Student_230,Female,student230@example.com,9280639501,3,6.23,89,250,1,0,97,34,3,Placed
+3231,Student_231,Male,student231@example.com,9920702588,1,7.27,100,118,0,1,31,57,15,Placed
+3232,Student_232,Female,student232@example.com,9164907817,5,8.24,98,247,5,3,32,30,14,Placed
+3233,Student_233,Male,student233@example.com,9117959560,5,8.61,88,146,0,3,52,43,4,Placed
+3234,Student_234,Male,student234@example.com,9358738317,2,8.17,52,181,2,3,40,77,13,Placed
+3235,Student_235,Female,student235@example.com,9706666479,2,9.76,48,153,5,0,34,41,13,Placed
+3236,Student_236,Female,student236@example.com,9504982743,5,7.55,21,359,1,0,93,85,11,Not Placed
+3237,Student_237,Male,student237@example.com,9667106600,1,6.49,92,243,2,0,39,65,2,Placed
+3238,Student_238,Male,student238@example.com,9437675369,1,9.63,95,73,6,3,39,68,6,Placed
+3239,Student_239,Male,student239@example.com,9708485104,4,8.41,89,169,3,1,40,94,12,Placed
+3240,Student_240,Male,student240@example.com,9204889313,4,6.5,29,174,4,3,71,33,9,Placed
+3241,Student_241,Female,student241@example.com,9626781451,2,7.03,68,221,1,3,40,67,8,Placed
+3242,Student_242,Male,student242@example.com,9188087644,3,6.16,39,378,3,2,76,43,3,Placed
+3243,Student_243,Male,student243@example.com,9430999662,4,7.05,54,52,1,0,53,85,15,Not Placed
+3244,Student_244,Female,student244@example.com,9210909937,1,5.89,90,47,4,2,79,31,10,Placed
+3245,Student_245,Female,student245@example.com,9516396603,1,8.62,91,124,4,1,78,51,5,Placed
+3246,Student_246,Female,student246@example.com,9423337234,3,7.62,28,85,3,2,83,68,16,Not Placed
+3247,Student_247,Male,student247@example.com,9487754927,3,9.56,100,253,4,1,88,43,5,Placed
+3248,Student_248,Female,student248@example.com,9107266407,4,6.93,99,194,6,2,86,72,14,Placed
+3249,Student_249,Male,student249@example.com,9422589929,3,8.09,45,245,2,1,80,70,10,Placed
+3250,Student_250,Female,student250@example.com,9718345671,2,6.9,55,201,2,0,55,99,6,Not Placed
+3251,Student_251,Male,student251@example.com,9880839406,4,9.55,46,224,6,2,38,82,16,Placed
+3252,Student_252,Male,student252@example.com,9780039397,3,6.54,39,366,3,3,39,87,16,Placed
+3253,Student_253,Female,student253@example.com,9673772626,5,9.47,73,278,0,2,98,40,4,Placed
+3254,Student_254,Male,student254@example.com,9806094391,3,6.22,98,22,4,3,72,85,4,Placed
+3255,Student_255,Male,student255@example.com,9205877984,3,6.45,86,285,4,1,87,77,13,Placed
+3256,Student_256,Female,student256@example.com,9929296154,5,8.47,39,176,0,3,43,67,14,Placed
+3257,Student_257,Male,student257@example.com,9224628497,2,7.0,63,233,6,1,96,91,12,Placed
+3258,Student_258,Female,student258@example.com,9204821934,4,8.6,77,163,0,2,35,44,1,Placed
+3259,Student_259,Female,student259@example.com,9795752405,1,8.41,41,379,1,1,100,50,11,Placed
+3260,Student_260,Female,student260@example.com,9596126873,2,8.93,100,94,1,3,80,33,7,Placed
+3261,Student_261,Female,student261@example.com,9735873300,4,7.17,47,105,2,0,43,98,6,Not Placed
+3262,Student_262,Female,student262@example.com,9450023635,2,7.47,53,343,6,3,97,70,13,Placed
+3263,Student_263,Female,student263@example.com,9730291513,1,7.0,78,316,1,2,40,47,11,Placed
+3264,Student_264,Male,student264@example.com,9356165519,3,6.0,67,355,1,3,83,47,13,Placed
+3265,Student_265,Female,student265@example.com,9299451515,4,8.23,42,284,1,3,66,47,6,Placed
+3266,Student_266,Female,student266@example.com,9584258607,5,5.73,65,4,3,1,54,79,16,Not Placed
+3267,Student_267,Female,student267@example.com,9835187452,4,7.29,76,250,1,0,33,58,10,Placed
+3268,Student_268,Male,student268@example.com,9395121074,2,7.81,41,399,3,3,100,95,4,Placed
+3269,Student_269,Male,student269@example.com,9387643522,5,9.04,66,277,6,0,86,99,7,Placed
+3270,Student_270,Female,student270@example.com,9209968815,2,6.78,24,230,2,2,41,86,4,Not Placed
+3271,Student_271,Male,student271@example.com,9325354965,5,8.46,98,323,3,1,47,56,7,Placed
+3272,Student_272,Male,student272@example.com,9712112671,3,7.79,96,275,1,2,67,67,9,Placed
+3273,Student_273,Male,student273@example.com,9245587477,4,9.45,55,335,1,1,61,48,11,Placed
+3274,Student_274,Male,student274@example.com,9917626034,4,7.6,93,323,2,3,78,87,3,Placed
+3275,Student_275,Male,student275@example.com,9532557724,5,8.72,67,232,3,2,30,41,15,Placed
+3276,Student_276,Female,student276@example.com,9168000803,5,7.21,74,108,3,2,71,66,11,Placed
+3277,Student_277,Male,student277@example.com,9707890457,4,8.89,26,23,0,3,32,45,6,Not Placed
+3278,Student_278,Female,student278@example.com,9590182620,1,9.76,74,103,5,1,68,50,9,Placed
+3279,Student_279,Male,student279@example.com,9802858478,3,6.58,67,340,5,1,36,80,10,Placed
+3280,Student_280,Male,student280@example.com,9560883210,1,8.53,20,109,3,0,46,58,15,Not Placed
+3281,Student_281,Male,student281@example.com,9108657116,3,9.01,74,355,1,3,39,59,13,Placed
+3282,Student_282,Male,student282@example.com,9884651200,1,5.94,67,153,1,3,47,48,3,Placed
+3283,Student_283,Male,student283@example.com,9755325292,2,7.39,47,321,5,1,82,86,7,Placed
+3284,Student_284,Male,student284@example.com,9207873599,2,8.74,95,373,3,2,84,70,5,Placed
+3285,Student_285,Male,student285@example.com,9397391755,1,6.57,96,307,5,2,33,68,7,Placed
+3286,Student_286,Male,student286@example.com,9902990996,4,6.77,26,122,3,3,44,60,16,Not Placed
+3287,Student_287,Male,student287@example.com,9667243311,1,9.74,60,67,3,3,76,99,6,Placed
+3288,Student_288,Female,student288@example.com,9927175323,1,5.57,28,7,2,1,35,37,13,Not Placed
+3289,Student_289,Female,student289@example.com,9774922644,5,8.8,74,359,3,0,98,98,5,Placed
+3290,Student_290,Female,student290@example.com,9189761677,3,5.84,46,79,4,2,80,38,10,Not Placed
+3291,Student_291,Female,student291@example.com,9883786839,2,5.75,31,222,0,3,37,69,6,Not Placed
+3292,Student_292,Male,student292@example.com,9113598909,2,8.52,40,254,2,2,51,77,5,Placed
+3293,Student_293,Female,student293@example.com,9886983862,1,8.82,23,171,6,3,64,97,3,Placed
+3294,Student_294,Female,student294@example.com,9864851260,5,8.2,83,233,4,2,37,93,6,Placed
+3295,Student_295,Female,student295@example.com,9268910304,3,8.83,93,345,5,0,59,95,1,Placed
+3296,Student_296,Male,student296@example.com,9113194223,2,5.7,66,196,1,1,34,100,14,Not Placed
+3297,Student_297,Male,student297@example.com,9445532283,2,7.29,60,138,6,0,77,45,2,Placed
+3298,Student_298,Male,student298@example.com,9339643129,5,9.72,71,35,3,2,69,71,3,Placed
+3299,Student_299,Female,student299@example.com,9108556837,3,6.36,92,155,5,1,89,77,16,Placed
+3300,Student_300,Male,student300@example.com,9886476517,5,8.77,51,77,0,3,33,59,12,Not Placed
+3301,Student_301,Male,student301@example.com,9459722166,1,8.76,68,377,5,2,43,56,8,Placed
+3302,Student_302,Female,student302@example.com,9628311983,1,9.68,38,364,2,0,35,59,14,Placed
+3303,Student_303,Female,student303@example.com,9592265554,1,8.0,84,68,5,3,39,37,14,Placed
+3304,Student_304,Male,student304@example.com,9354231714,3,6.62,60,201,5,2,70,87,9,Placed
+3305,Student_305,Male,student305@example.com,9180195016,2,6.09,94,55,1,0,51,87,15,Not Placed
+3306,Student_306,Female,student306@example.com,9536489528,1,7.8,46,231,2,3,63,45,3,Placed
+3307,Student_307,Male,student307@example.com,9967150570,3,9.05,97,20,1,2,48,41,8,Placed
+3308,Student_308,Female,student308@example.com,9525464250,5,5.71,58,133,6,1,33,81,15,Not Placed
+3309,Student_309,Male,student309@example.com,9201710492,4,5.94,37,62,0,0,58,46,7,Not Placed
+3310,Student_310,Female,student310@example.com,9499689381,1,8.0,53,38,0,0,55,86,5,Not Placed
+3311,Student_311,Male,student311@example.com,9990514408,3,6.03,79,25,1,3,80,93,1,Not Placed
+3312,Student_312,Female,student312@example.com,9833594284,4,6.24,47,95,2,2,87,49,2,Not Placed
+3313,Student_313,Male,student313@example.com,9795009888,3,7.65,90,245,0,0,65,79,5,Placed
+3314,Student_314,Female,student314@example.com,9314166184,5,6.57,89,9,3,2,91,99,16,Placed
+3315,Student_315,Female,student315@example.com,9707363258,5,6.88,54,92,0,2,58,33,9,Not Placed
+3316,Student_316,Male,student316@example.com,9968285490,4,7.78,94,119,1,0,61,60,9,Placed
+3317,Student_317,Male,student317@example.com,9920392140,2,7.98,69,181,6,1,52,60,11,Placed
+3318,Student_318,Female,student318@example.com,9735185398,1,8.52,65,290,4,1,54,93,10,Placed
+3319,Student_319,Male,student319@example.com,9626602103,1,5.89,49,308,1,0,97,91,1,Not Placed
+3320,Student_320,Female,student320@example.com,9759422189,2,8.97,63,367,1,2,37,32,5,Placed
+3321,Student_321,Male,student321@example.com,9931469703,1,9.14,66,37,2,3,42,73,10,Placed
+3322,Student_322,Female,student322@example.com,9246513857,2,8.65,75,327,3,2,52,75,8,Placed
+3323,Student_323,Male,student323@example.com,9506286844,3,8.66,57,65,1,0,80,34,6,Not Placed
+3324,Student_324,Female,student324@example.com,9968449816,5,6.45,92,53,3,1,72,39,8,Placed
+3325,Student_325,Female,student325@example.com,9443080569,2,8.24,31,362,5,2,87,31,9,Placed
+3326,Student_326,Male,student326@example.com,9367942460,1,7.01,33,368,0,0,79,86,14,Not Placed
+3327,Student_327,Male,student327@example.com,9544549689,4,9.29,64,279,3,0,91,58,6,Placed
+3328,Student_328,Female,student328@example.com,9179144854,1,6.77,60,133,0,0,73,51,13,Not Placed
+3329,Student_329,Male,student329@example.com,9885963005,1,7.85,31,173,4,3,33,85,6,Placed
+3330,Student_330,Female,student330@example.com,9268688902,1,5.94,46,97,3,2,66,68,8,Not Placed
+3331,Student_331,Male,student331@example.com,9153295652,4,7.96,82,78,0,2,30,84,3,Placed
+3332,Student_332,Female,student332@example.com,9984652998,5,7.57,32,13,1,1,67,40,16,Not Placed
+3333,Student_333,Male,student333@example.com,9431091936,4,7.53,53,46,5,3,53,77,13,Placed
+3334,Student_334,Female,student334@example.com,9300341906,4,5.69,76,238,2,1,64,37,5,Placed
+3335,Student_335,Male,student335@example.com,9192027526,3,8.98,72,387,4,1,100,37,13,Placed
+3336,Student_336,Female,student336@example.com,9675004218,4,7.96,50,243,2,0,80,34,5,Placed
+3337,Student_337,Male,student337@example.com,9913025234,4,6.24,41,108,6,1,46,35,14,Not Placed
+3338,Student_338,Male,student338@example.com,9833500385,4,6.37,100,75,6,2,70,38,3,Placed
+3339,Student_339,Female,student339@example.com,9697391512,4,7.87,55,266,3,0,96,83,4,Placed
+3340,Student_340,Female,student340@example.com,9260677223,2,7.94,94,388,0,0,42,66,12,Placed
+3341,Student_341,Female,student341@example.com,9383614547,4,8.32,93,311,3,0,52,65,13,Placed
+3342,Student_342,Male,student342@example.com,9763834967,5,8.43,71,19,3,2,60,36,16,Placed
+3343,Student_343,Female,student343@example.com,9499905152,1,6.95,58,159,2,3,42,59,5,Placed
+3344,Student_344,Female,student344@example.com,9898567178,4,8.83,61,137,5,3,41,54,15,Placed
+3345,Student_345,Male,student345@example.com,9984730446,4,8.69,86,191,6,0,95,50,3,Placed
+3346,Student_346,Female,student346@example.com,9861894343,5,7.23,87,291,0,1,54,55,2,Placed
+3347,Student_347,Male,student347@example.com,9135509761,4,5.72,66,360,1,2,77,89,13,Placed
+3348,Student_348,Male,student348@example.com,9831405402,1,6.54,82,304,3,1,90,100,12,Placed
+3349,Student_349,Female,student349@example.com,9275571407,3,8.72,31,145,0,3,36,50,7,Not Placed
+3350,Student_350,Male,student350@example.com,9795118868,2,8.41,54,333,3,0,31,90,5,Placed
+3351,Student_351,Male,student351@example.com,9745471251,1,6.46,97,156,5,2,84,78,12,Placed
+3352,Student_352,Female,student352@example.com,9370581558,2,7.51,86,319,3,0,30,95,12,Placed
+3353,Student_353,Female,student353@example.com,9420486085,1,7.57,63,141,5,2,65,63,10,Placed
+3354,Student_354,Male,student354@example.com,9260985353,5,8.79,27,307,3,2,47,33,16,Placed
+3355,Student_355,Female,student355@example.com,9378556835,4,7.24,24,298,5,1,73,58,16,Placed
+3356,Student_356,Female,student356@example.com,9644725181,3,9.14,91,92,2,0,90,46,9,Placed
+3357,Student_357,Male,student357@example.com,9829835592,3,8.31,48,181,1,2,83,72,12,Placed
+3358,Student_358,Female,student358@example.com,9728751749,3,7.49,35,240,0,0,90,54,4,Not Placed
+3359,Student_359,Female,student359@example.com,9668909764,3,7.28,39,70,1,2,82,88,5,Not Placed
+3360,Student_360,Female,student360@example.com,9868443155,2,8.85,82,170,5,1,70,37,1,Placed
+3361,Student_361,Female,student361@example.com,9393698307,2,8.77,41,295,6,1,92,41,5,Placed
+3362,Student_362,Female,student362@example.com,9780202067,4,7.23,81,196,0,0,98,55,12,Placed
+3363,Student_363,Male,student363@example.com,9445973716,5,6.32,20,320,5,1,58,74,10,Not Placed
+3364,Student_364,Male,student364@example.com,9210282113,4,7.66,59,85,0,0,68,67,15,Not Placed
+3365,Student_365,Female,student365@example.com,9565644493,2,6.97,82,183,6,1,51,81,1,Placed
+3366,Student_366,Male,student366@example.com,9340863230,2,6.41,22,301,4,1,45,76,2,Not Placed
+3367,Student_367,Female,student367@example.com,9787539531,3,8.82,99,24,4,0,43,32,2,Placed
+3368,Student_368,Male,student368@example.com,9547509357,4,7.14,90,129,3,1,56,31,10,Placed
+3369,Student_369,Female,student369@example.com,9810456933,1,8.35,54,318,4,1,83,43,4,Placed
+3370,Student_370,Female,student370@example.com,9222420042,1,7.64,97,102,6,2,96,55,12,Placed
+3371,Student_371,Female,student371@example.com,9417130941,2,5.67,83,106,5,3,72,60,1,Placed
+3372,Student_372,Male,student372@example.com,9821160591,1,9.4,93,342,3,1,41,95,3,Placed
+3373,Student_373,Male,student373@example.com,9374762050,2,7.46,57,135,3,0,42,52,2,Not Placed
+3374,Student_374,Female,student374@example.com,9486777550,3,7.33,34,48,6,0,31,47,6,Not Placed
+3375,Student_375,Female,student375@example.com,9483892122,4,9.61,54,375,0,2,73,53,4,Placed
+3376,Student_376,Female,student376@example.com,9529765405,4,6.67,69,353,6,3,83,51,4,Placed
+3377,Student_377,Male,student377@example.com,9847506709,1,9.72,40,53,3,3,86,53,13,Placed
+3378,Student_378,Female,student378@example.com,9756441105,1,9.21,36,247,3,0,82,86,2,Placed
+3379,Student_379,Male,student379@example.com,9380904676,3,5.55,87,392,5,1,73,96,4,Placed
+3380,Student_380,Female,student380@example.com,9810509206,2,7.57,69,76,6,0,31,50,16,Placed
+3381,Student_381,Female,student381@example.com,9277601056,1,8.73,61,123,2,2,36,94,8,Placed
+3382,Student_382,Female,student382@example.com,9533015368,2,5.84,76,293,3,0,93,87,11,Placed
+3383,Student_383,Male,student383@example.com,9634050562,1,5.94,72,18,4,0,41,68,7,Not Placed
+3384,Student_384,Female,student384@example.com,9465989408,3,9.05,48,232,2,3,76,87,4,Placed
+3385,Student_385,Male,student385@example.com,9915313588,2,5.51,65,324,6,2,100,96,12,Placed
+3386,Student_386,Male,student386@example.com,9149153870,2,7.62,72,54,2,1,54,45,13,Not Placed
+3387,Student_387,Male,student387@example.com,9590749409,2,8.58,33,387,3,0,45,87,15,Placed
+3388,Student_388,Male,student388@example.com,9635613177,1,7.78,26,283,3,3,95,52,6,Placed
+3389,Student_389,Male,student389@example.com,9211190223,4,8.33,97,164,4,3,83,61,9,Placed
+3390,Student_390,Female,student390@example.com,9468141835,3,7.45,37,70,3,2,100,70,7,Not Placed
+3391,Student_391,Male,student391@example.com,9325177291,5,8.57,64,344,1,1,94,99,11,Placed
+3392,Student_392,Male,student392@example.com,9916875967,3,7.92,94,292,5,3,98,66,14,Placed
+3393,Student_393,Male,student393@example.com,9661277051,1,5.61,38,27,5,0,55,64,6,Not Placed
+3394,Student_394,Female,student394@example.com,9833784779,3,6.13,27,353,6,2,56,99,2,Placed
+3395,Student_395,Female,student395@example.com,9974053994,4,5.94,91,114,5,3,60,95,10,Placed
+3396,Student_396,Male,student396@example.com,9509721231,4,7.29,60,282,0,0,62,55,15,Not Placed
+3397,Student_397,Male,student397@example.com,9780525215,3,8.75,89,378,4,1,54,67,15,Placed
+3398,Student_398,Male,student398@example.com,9832999366,1,6.3,42,376,4,0,78,35,14,Placed
+3399,Student_399,Female,student399@example.com,9697643222,3,6.06,94,130,0,2,89,49,2,Placed
+3400,Student_400,Male,student400@example.com,9446421355,5,5.72,100,315,6,2,92,100,12,Placed
+3401,Student_401,Male,student401@example.com,9941847352,3,7.76,43,266,0,1,83,99,13,Not Placed
+3402,Student_402,Male,student402@example.com,9475168561,2,9.3,62,169,2,2,57,97,16,Placed
+3403,Student_403,Male,student403@example.com,9223181755,3,7.42,98,318,1,0,71,78,4,Placed
+3404,Student_404,Female,student404@example.com,9375512010,5,8.61,23,264,6,2,95,95,15,Placed
+3405,Student_405,Female,student405@example.com,9147085363,3,9.36,44,164,4,0,42,51,1,Placed
+3406,Student_406,Male,student406@example.com,9326324885,2,9.22,74,53,1,3,39,49,1,Placed
+3407,Student_407,Female,student407@example.com,9869731458,3,5.66,29,27,1,2,39,59,9,Not Placed
+3408,Student_408,Female,student408@example.com,9516646839,4,8.21,75,161,0,3,45,98,1,Placed
+3409,Student_409,Male,student409@example.com,9911706504,5,5.7,29,183,4,0,67,68,3,Not Placed
+3410,Student_410,Female,student410@example.com,9921706952,4,7.14,23,242,1,1,47,80,10,Not Placed
+3411,Student_411,Male,student411@example.com,9420035728,3,9.62,21,283,6,1,45,35,1,Placed
+3412,Student_412,Female,student412@example.com,9676762622,5,9.57,59,107,5,2,57,82,5,Placed
+3413,Student_413,Male,student413@example.com,9297560682,2,8.15,52,99,0,1,36,100,15,Not Placed
+3414,Student_414,Male,student414@example.com,9412085927,1,6.58,45,371,4,3,72,75,5,Placed
+3415,Student_415,Male,student415@example.com,9207422565,3,8.16,44,162,3,3,72,69,5,Placed
+3416,Student_416,Female,student416@example.com,9967261018,3,9.62,41,2,2,1,58,85,9,Not Placed
+3417,Student_417,Female,student417@example.com,9244209787,3,9.27,79,228,2,2,92,100,4,Placed
+3418,Student_418,Male,student418@example.com,9793155758,5,5.85,55,71,4,1,63,39,3,Not Placed
+3419,Student_419,Male,student419@example.com,9644578566,1,8.99,94,207,6,1,34,100,9,Placed
+3420,Student_420,Female,student420@example.com,9802128517,2,7.07,48,395,4,2,47,89,3,Placed
+3421,Student_421,Female,student421@example.com,9490697670,5,5.55,50,314,5,1,95,47,15,Placed
+3422,Student_422,Male,student422@example.com,9292355674,5,9.58,38,376,5,3,75,35,8,Placed
+3423,Student_423,Female,student423@example.com,9348839570,1,6.64,49,21,5,1,96,76,13,Not Placed
+3424,Student_424,Female,student424@example.com,9588169687,1,5.67,61,52,5,2,63,99,6,Not Placed
+3425,Student_425,Female,student425@example.com,9801878526,4,7.07,29,264,2,3,58,96,13,Placed
+3426,Student_426,Female,student426@example.com,9977501292,3,7.59,81,309,0,1,86,51,8,Placed
+3427,Student_427,Male,student427@example.com,9652484481,3,6.41,43,80,2,0,59,83,11,Not Placed
+3428,Student_428,Male,student428@example.com,9617024564,4,7.56,95,82,5,3,32,61,2,Placed
+3429,Student_429,Male,student429@example.com,9715776454,5,6.19,100,262,0,1,37,51,9,Placed
+3430,Student_430,Male,student430@example.com,9654738715,4,8.08,92,326,0,2,40,57,15,Placed
+3431,Student_431,Female,student431@example.com,9617187507,2,6.44,72,307,1,1,95,63,6,Placed
+3432,Student_432,Female,student432@example.com,9586909856,5,8.04,49,193,3,1,43,32,7,Placed
+3433,Student_433,Female,student433@example.com,9987462850,2,8.1,42,243,4,0,98,94,4,Placed
+3434,Student_434,Male,student434@example.com,9617802256,2,9.38,89,0,6,3,96,83,12,Placed
+3435,Student_435,Male,student435@example.com,9849088260,5,7.34,81,393,3,2,42,84,5,Placed
+3436,Student_436,Female,student436@example.com,9612326496,2,9.41,30,145,4,3,62,54,1,Placed
+3437,Student_437,Male,student437@example.com,9720608968,5,6.01,20,192,5,1,70,82,12,Not Placed
+3438,Student_438,Male,student438@example.com,9266192234,4,8.3,52,133,6,3,76,65,13,Placed
+3439,Student_439,Male,student439@example.com,9543700355,5,8.87,81,91,2,3,62,69,12,Placed
+3440,Student_440,Female,student440@example.com,9890040374,2,9.18,35,382,1,3,50,42,7,Placed
+3441,Student_441,Female,student441@example.com,9944048177,3,8.94,98,356,5,0,50,79,1,Placed
+3442,Student_442,Male,student442@example.com,9983963824,2,7.53,96,222,0,0,63,58,12,Placed
+3443,Student_443,Male,student443@example.com,9753939761,1,8.62,71,314,5,2,37,52,16,Placed
+3444,Student_444,Female,student444@example.com,9111500207,2,9.16,86,146,1,0,95,96,8,Placed
+3445,Student_445,Male,student445@example.com,9823728171,1,7.05,20,80,0,2,81,75,13,Not Placed
+3446,Student_446,Female,student446@example.com,9729298787,2,7.73,28,46,4,2,74,74,9,Not Placed
+3447,Student_447,Male,student447@example.com,9751077748,2,7.46,71,294,0,2,52,82,4,Placed
+3448,Student_448,Male,student448@example.com,9640273782,3,6.96,34,262,2,2,86,78,16,Placed
+3449,Student_449,Male,student449@example.com,9913330750,3,9.63,78,348,3,0,91,44,9,Placed
+3450,Student_450,Male,student450@example.com,9510892271,2,8.41,49,161,3,2,96,98,1,Placed
+3451,Student_451,Female,student451@example.com,9366564581,3,5.9,63,38,4,1,90,70,12,Not Placed
+3452,Student_452,Male,student452@example.com,9716019237,3,6.29,44,255,5,1,60,60,9,Placed
+3453,Student_453,Male,student453@example.com,9346109712,2,9.09,99,182,1,0,45,40,16,Placed
+3454,Student_454,Male,student454@example.com,9920600973,5,9.62,81,190,4,2,93,65,16,Placed
+3455,Student_455,Male,student455@example.com,9920620417,5,6.71,48,384,4,1,36,97,14,Placed
+3456,Student_456,Female,student456@example.com,9680645164,1,7.66,70,351,6,1,88,45,15,Placed
+3457,Student_457,Female,student457@example.com,9840034196,1,5.55,46,194,4,0,71,76,9,Not Placed
+3458,Student_458,Male,student458@example.com,9689015467,3,6.52,80,313,2,2,53,93,14,Placed
+3459,Student_459,Male,student459@example.com,9549997617,3,7.07,71,143,3,1,46,59,4,Placed
+3460,Student_460,Female,student460@example.com,9963382466,2,7.89,68,100,1,1,90,31,6,Placed
+3461,Student_461,Female,student461@example.com,9636439085,2,9.78,100,264,4,2,92,68,9,Placed
+3462,Student_462,Male,student462@example.com,9527780790,1,8.47,27,110,6,2,90,42,15,Placed
+3463,Student_463,Female,student463@example.com,9378924968,3,7.05,91,131,2,0,82,45,12,Placed
+3464,Student_464,Male,student464@example.com,9719392003,5,8.29,88,89,6,2,75,71,16,Placed
+3465,Student_465,Female,student465@example.com,9184189438,4,8.14,79,323,1,1,73,83,13,Placed
+3466,Student_466,Male,student466@example.com,9184945787,2,6.98,60,162,5,2,64,80,9,Placed
+3467,Student_467,Female,student467@example.com,9938564480,3,8.72,86,230,3,1,53,32,5,Placed
+3468,Student_468,Male,student468@example.com,9810841299,3,9.54,30,107,1,3,43,42,3,Placed
+3469,Student_469,Female,student469@example.com,9688876249,1,5.61,70,268,6,0,43,63,5,Placed
+3470,Student_470,Male,student470@example.com,9803121225,4,6.83,51,377,2,3,46,46,6,Placed
+3471,Student_471,Male,student471@example.com,9137747372,3,9.2,61,243,3,2,100,86,5,Placed
+3472,Student_472,Male,student472@example.com,9734399876,5,7.46,92,222,4,2,74,91,8,Placed
+3473,Student_473,Male,student473@example.com,9574443895,3,7.07,53,79,2,0,30,96,5,Not Placed
+3474,Student_474,Female,student474@example.com,9407908620,4,7.8,82,386,3,2,31,85,10,Placed
+3475,Student_475,Male,student475@example.com,9955522471,1,7.86,44,210,4,3,80,61,6,Placed
+3476,Student_476,Female,student476@example.com,9989516564,4,6.45,30,216,5,1,96,64,10,Not Placed
+3477,Student_477,Female,student477@example.com,9543352165,2,9.17,43,69,2,0,88,87,9,Not Placed
+3478,Student_478,Female,student478@example.com,9301637382,3,5.58,26,273,0,1,43,66,9,Not Placed
+3479,Student_479,Male,student479@example.com,9867935795,4,8.63,49,46,1,0,93,57,11,Not Placed
+3480,Student_480,Female,student480@example.com,9434552915,4,9.79,79,356,6,0,72,40,5,Placed
+3481,Student_481,Male,student481@example.com,9386156035,4,5.81,80,92,1,2,78,31,4,Not Placed
+3482,Student_482,Male,student482@example.com,9513173592,4,6.56,24,101,3,0,96,56,16,Not Placed
+3483,Student_483,Female,student483@example.com,9831693114,3,9.53,40,322,5,0,100,96,4,Placed
+3484,Student_484,Female,student484@example.com,9616716343,3,6.35,26,341,1,0,60,85,11,Not Placed
+3485,Student_485,Male,student485@example.com,9279701810,3,8.01,70,124,0,0,90,49,12,Not Placed
+3486,Student_486,Male,student486@example.com,9367063493,2,7.65,99,173,6,0,37,75,5,Placed
+3487,Student_487,Male,student487@example.com,9235106204,4,6.5,91,330,6,2,86,54,1,Placed
+3488,Student_488,Female,student488@example.com,9484579421,2,6.58,25,248,5,3,67,99,16,Placed
+3489,Student_489,Male,student489@example.com,9708491359,2,7.84,61,374,3,2,100,50,3,Placed
+3490,Student_490,Male,student490@example.com,9582522615,3,9.02,89,187,3,0,94,78,6,Placed
+3491,Student_491,Male,student491@example.com,9765434962,3,8.84,50,164,5,0,98,79,7,Placed
+3492,Student_492,Female,student492@example.com,9922200725,5,6.16,56,165,3,2,44,42,3,Not Placed
+3493,Student_493,Male,student493@example.com,9996782035,2,6.27,24,103,0,3,54,42,2,Not Placed
+3494,Student_494,Female,student494@example.com,9806437569,4,7.76,95,131,0,2,58,39,1,Placed
+3495,Student_495,Male,student495@example.com,9804105516,4,9.49,30,239,6,0,76,83,12,Placed
+3496,Student_496,Male,student496@example.com,9984379899,5,6.64,25,375,0,2,39,57,4,Not Placed
+3497,Student_497,Male,student497@example.com,9878647434,2,7.79,44,98,4,1,52,83,4,Not Placed
+3498,Student_498,Female,student498@example.com,9824230874,4,8.52,74,53,1,1,100,81,11,Placed
+3499,Student_499,Male,student499@example.com,9673271266,5,7.4,65,161,4,2,77,82,14,Placed
+3500,Student_500,Female,student500@example.com,9753278884,2,7.92,47,192,6,2,76,87,15,Placed

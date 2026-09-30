@@ -1,0 +1,37 @@
+RoleID,RoleName,RoleType
+1,Software Engineer,Software
+2,Backend Developer,Software
+3,Frontend Developer,Software
+4,Full Stack Developer,Software
+5,Machine Learning Engineer,Software
+6,Data Scientist,Software
+7,AI Engineer,Software
+8,DevOps Engineer,Software
+9,Cloud Engineer,Software
+10,Database Engineer,Software
+11,QA Engineer,Software
+12,Data Analyst,Analytics
+13,Business Analyst,Analytics
+14,BI Analyst,Analytics
+15,Embedded Engineer,Electronics
+16,Firmware Engineer,Electronics
+17,VLSI Engineer,Electronics
+18,Hardware Engineer,Electronics
+19,Mechanical Engineer,Core
+20,Electrical Engineer,Core
+21,Civil Engineer,Core
+22,Chemical Engineer,Core
+23,Metallurgical Engineer,Core
+24,Production Engineer,Core
+25,Process Engineer,Core
+26,Project Engineer,Core
+27,Design Engineer,Core
+28,Research Associate,Research
+29,Research Engineer,Research
+30,Technology Consultant,Consulting
+31,Consultant,Consulting
+32,Risk Analyst,Finance
+33,Quant Analyst,Finance
+34,Network Engineer,Networking
+35,Cybersecurity Engineer,Networking
+36,Management Trainee,Management

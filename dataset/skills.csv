@@ -1,0 +1,93 @@
+SkillName,SkillCategory,DifficultyWeight
+Python,Programming,3
+Java,Programming,3
+C,Programming,2
+C++,Programming,4
+JavaScript,Programming,3
+SQL,Database,2
+Git,Programming,2
+GitHub,Programming,2
+Object Oriented Programming,Programming,3
+Data Structures & Algorithms,Programming,5
+HTML,Web Development,1
+CSS,Web Development,1
+Bootstrap,Web Development,2
+React,Web Development,4
+Node.js,Web Development,4
+Express.js,Web Development,4
+REST APIs,Web Development,3
+MySQL,Database,2
+MongoDB,Database,3
+Database Design,Database,3
+SQL Optimization,Database,4
+Pandas,Data Science,2
+NumPy,Data Science,2
+Scikit-Learn,Data Science,3
+TensorFlow,Data Science,5
+PyTorch,Data Science,5
+Machine Learning,Data Science,5
+Deep Learning,Data Science,5
+Natural Language Processing,Data Science,5
+Computer Vision,Data Science,5
+Data Visualization,Data Science,3
+Feature Engineering,Data Science,4
+Model Evaluation,Data Science,4
+AWS,Cloud,4
+Azure,Cloud,4
+Google Cloud,Cloud,4
+Docker,Cloud,3
+Kubernetes,Cloud,5
+Linux,Cloud,3
+CI/CD,Cloud,4
+Computer Networks,Networking,3
+Cyber Security,Networking,4
+Network Security,Networking,4
+Ethical Hacking,Networking,5
+Cryptography,Networking,5
+Embedded Systems,Electronics,4
+Microcontrollers,Electronics,4
+PCB Design,Electronics,4
+Digital Electronics,Electronics,3
+Analog Electronics,Electronics,3
+VLSI,Electronics,5
+Verilog,Electronics,5
+FPGA,Electronics,5
+Signal Processing,Electronics,4
+Power Systems,Electrical,4
+Control Systems,Electrical,4
+Electrical Machines,Electrical,4
+MATLAB,Electrical,3
+PLC,Electrical,4
+CAD,Mechanical,3
+SolidWorks,Mechanical,4
+AutoCAD,Mechanical,3
+CATIA,Mechanical,4
+ANSYS,Mechanical,5
+GD&T,Mechanical,4
+Thermodynamics,Mechanical,4
+Manufacturing Processes,Mechanical,3
+Structural Design,Civil,4
+Surveying,Civil,3
+STAAD Pro,Civil,5
+ETABS,Civil,5
+Construction Management,Civil,3
+Process Design,Chemical,4
+Process Simulation,Chemical,5
+Heat Transfer,Chemical,4
+Mass Transfer,Chemical,4
+Chemical Reaction Engineering,Chemical,5
+Material Science,Metallurgy,4
+Heat Treatment,Metallurgy,4
+Failure Analysis,Metallurgy,5
+PCR,Biotechnology,4
+Cell Culture,Biotechnology,5
+Bioinformatics,Biotechnology,5
+Genetics,Biotechnology,4
+Molecular Biology,Biotechnology,5
+Communication,Soft Skills,1
+Leadership,Soft Skills,2
+Teamwork,Soft Skills,1
+Problem Solving,Soft Skills,2
+Critical Thinking,Soft Skills,2
+Presentation Skills,Soft Skills,2
+Time Management,Soft Skills,1
